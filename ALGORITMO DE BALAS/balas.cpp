@@ -422,8 +422,8 @@ int main() {
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 
     std::ofstream out("salida.txt");
-    
-	while (resolverCaso());
+    auto coutbuf = std::cout.rdbuf(out.rdbuf());
+    while (resolverCaso());
 
 	// para dejar todo como estaba al principio
 	std::cin.rdbuf(cinbuf);
