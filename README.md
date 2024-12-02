@@ -1,4 +1,4 @@
-# 🚀 Algoritmos Avanzados
+# 🚀 PRACTICA DE MODELOS OPERATIVOS DE GESTION (MOG): Algoritmos Avanzados
 
 ¡Bienvenido al repositorio de **Algoritmos Avanzados**! Este repositorio incluye implementaciones de algoritmos organizados en carpetas según su propósito, con ejemplos, casos de prueba y resultados.
 
