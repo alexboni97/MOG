@@ -15,9 +15,8 @@ int funcion_objetivo(const std::vector<int>& solucion) {
 }
 
 
-// Definir la funcion de vecindad
 std::vector<std::vector<int>> obtener_vecinos(const std::vector<int>& solucion)
-{ // Agregado el calificador const
+{
     std::vector<std::vector<int>> vecinos;
     for (size_t i = 0; i < solucion.size(); i++) {
         for (size_t j = i + 1; j < solucion.size(); j++) {
@@ -34,7 +33,7 @@ std::vector<std::vector<int>> obtener_vecinos(const std::vector<int>& solucion)
 std::vector<int>
 busqueda_tabu(const std::vector<int>& solucion_inicial,
     int max_iteraciones, int tamano_lista_tabu)
-{ // Agregado el calificador const
+{ 
     std::vector<int> mejor_solucion = solucion_inicial;
     std::vector<int> solucion_actual = solucion_inicial;
     std::vector<std::vector<int> > lista_tabu;
