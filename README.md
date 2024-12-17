@@ -8,19 +8,19 @@
 
 ```plaintext
 .
-├── ALGORITMO 3
-│   ├── casos.txt    # Casos de prueba para el algoritmo
-│   ├── main.cpp     # Código fuente del algoritmo
-│   ├── salida.txt   # Resultados generados
-│
 ├── ALGORITMO DE BALAS
 │   ├── balas.cpp    # Código fuente del algoritmo
 │   ├── casos.txt    # Casos de prueba
 │   ├── salida.txt   # Resultados generados
 │
-├── ALGORITMO FLUJO MINIMO
-│   ├── main.cpp     # Código fuente del algoritmo
+├── ALGORITMO DE BUSQUEDA TABU
+│   ├── tabu.cpp     # Código fuente del algoritmo
 │   ├── casos.txt    # Casos de prueba
+│   ├── salida.txt   # Resultados generados
+│
+├── ALGORITMO FORD FULKERSON
+│   ├── casos.txt    # Casos de prueba para el algoritmo
+│   ├── ford.cpp     # Código fuente del algoritmo
 │   ├── salida.txt   # Resultados generados
 │
 ├── .gitignore        # Archivos ignorados por Git

@@ -70,7 +70,7 @@ int fordFulkerson(vector<vector<int>>& graph, int origen, int destino) {
     return maxFlow;
 }
 
-bool resolverCaso(){
+bool resolverCaso(int &cont){
     int n,m;
     cin >>n>>m;
     if(!cin)
@@ -88,7 +88,11 @@ bool resolverCaso(){
     int origen,destino;
     cin>>origen>>destino;
     int flujoTotal= fordFulkerson(grafo,origen,destino);
-    cout<<flujoTotal<<"\n";
+    cout<<"-------------------------------------------------------------\n";
+    cout<<"Solucion ejemplo "<<cont<<":\n";
+    cont++;
+    cout<<"El flujo maximo es: "<<flujoTotal<<"\n";
+    cout<<"-------------------------------------------------------------\n";
     return true;
 }
 
@@ -104,11 +108,12 @@ int main() {
 
     std::ofstream out("salida.txt");
     auto coutbuf = std::cout.rdbuf(out.rdbuf());
-    while (resolverCaso());
+    int cont=1;
+    while (resolverCaso(cont)) cont;
 
 	// para dejar todo como estaba al principio
 	std::cin.rdbuf(cinbuf);
-	std::cout << "Pulsa Intro para salir..." << std::flush;
+	std::cout<< std::flush;
 	std::cin.get();
 	return 0;
 }
