@@ -1,4 +1,0 @@
-Mejor solucion: 2 4 9 6 7
-Aptitud de la mejor solucion: 11
-Mejor solucion: 2 4 6 7 9
-Aptitud de la mejor solucion: 7

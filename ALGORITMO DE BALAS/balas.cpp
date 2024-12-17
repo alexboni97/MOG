@@ -11,6 +11,7 @@
 #include <algorithm>
 #include "EnterosInf.h"
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 

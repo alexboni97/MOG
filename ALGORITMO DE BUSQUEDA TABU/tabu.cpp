@@ -3,6 +3,7 @@
 #include <numeric> 
 #include <vector>
 #include <fstream>
+#include <limits>
 
 // Definir la funcion objetivo
 int funcion_objetivo(const std::vector<int>& solucion) {
@@ -117,6 +118,9 @@ int main()
     std::ofstream out("salida.txt");
     auto coutbuf = std::cout.rdbuf(out.rdbuf());
     while (resolverCaso());
-
+	// para dejar todo como estaba al principio
+	std::cin.rdbuf(cinbuf);
+	std::cout<< std::flush;
+	std::cin.get();
     return 0;
 }
