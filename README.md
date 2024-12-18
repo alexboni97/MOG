@@ -24,4 +24,5 @@
 │   ├── salida.txt   # Resultados generados
 │
 ├── .gitignore        # Archivos ignorados por Git
+├── LICENCE           # Licencia del repositorio MIT
 └── .vscode           # Configuración de VS Code
